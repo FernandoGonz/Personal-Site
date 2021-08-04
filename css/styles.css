@@ -1,32 +1,47 @@
 body {
     /* margin: 0px; Apply to four sides (left, top, right, bottom) */
-    margin: 0px; 
-    background-color: #E4F9F5;
+    margin: 0px; /* Delete the default borders of the body */
+    background-color: #E4F9F5; /* Set a background color to body */
+    font-family: 'Merriweather', serif; /* Getting of the CSS rules of the google fonts*/
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 0px; /* Delete the margin top of all h1 elements */
+    font-family: 'Sacramento', cursive; /* Getting of the CSS rules of the google fonts*/
 } 
 
-#cloud-image-1 {
-    position: absolute;
-    right: 300px;
-    top: 100px;
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-#cloud-image-2 {
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cloud-image-1 { /* Image cloud 1 into .top-container */
+    position: absolute; /* aboslute position of his pattern .top-container */
+    right: 300px; /* 300px right margin respect of his pattern */
+    top: 100px; /* 100px top margin respect of his pattern  */
+}
+
+#cloud-image-2 { 
     position: absolute;
     left: 300px;
     top: 200px;
 }
 
-.top-container {
-    text-align: center;
-    padding-top: 100px;
+#profile-photo {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
 }
 
-.middle-container, .bottom-container {
-    height: 200px;
-    width: 200px;
+.top-container {
+    text-align: center; /* Center all HTML elements NOTE: if an block element has
+    width, the text-align property does not will center them, you need to
+    add a margin: 0 auto; to all block elements that you whant to center with a width */
+    padding-top: 100px; /* Adding a padding to the top of the .top-container */
+
 }
+
 
