@@ -1,21 +1,28 @@
 body {
     /* margin: 0px; Apply to four sides (left, top, right, bottom) */
     margin: 0px; /* Delete the default borders of the body */
-    background-color: #E4F9F5; /* Set a background color to body */
     font-family: 'Merriweather', serif; /* Getting of the CSS rules of the google fonts*/
+    color: #40514E; /* Font color of the body */
 }
 
 h1 {
-    margin-top: 0px; /* Delete the margin top of all h1 elements */
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive; /* Getting of the CSS rules of the google fonts*/
+    font-size: 5.625rem; /*90px, 1em is equals to 16px */
+    color: #66BFBF;
 } 
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem; /* 40px, 1em is equals to 16px */
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 #cloud-image-1 { /* Image cloud 1 into .top-container */
@@ -25,7 +32,7 @@ h3 {
 }
 
 #cloud-image-2 { 
-    position: absolute;
+    position: absolute; /* Position abosolute to move it respect his pattern (top-container)*/
     left: 300px;
     top: 200px;
 }
@@ -34,14 +41,75 @@ h3 {
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    background-color: #986D8E;
 }
 
 .top-container {
     text-align: center; /* Center all HTML elements NOTE: if an block element has
     width, the text-align property does not will center them, you need to
     add a margin: 0 auto; to all block elements that you whant to center with a width */
-    padding-top: 100px; /* Adding a padding to the top of the .top-container */
+    background-color: #E4F6F6; 
+}
+
+.middle-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    /* To every pharagraphs */
+    line-height: 2; /* The double of the spacing between each row or line text*/
+}
+
+.bottom-container {
 
 }
 
+a {
+    color: #11999E; /* Color for the anchors */
+}
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto; /* to center the div content */
+    text-align: left;
+}
+
+.skill-image-left {
+    background-color: #986D8E;
+    border-radius: 50%; /* border radius of the 50% */
+    width: 25%; /* Width of the 25% */
+    float: left; /* To float the image left to the text*/
+    margin-right: 20px; /* */
+}
+
+.skill-image-rigth {
+    background-color: #986D8E;
+    border-radius: 50%; /* border radius of the 50% */
+    width: 25%; /* Width of the 25% */
+    float: right; /* To float the image left to the text*/
+    margin-left: 20px; /* */
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #EAF6F6;
+    border-width: 10px;
+    width: 8%;
+    height: 0%;
+    margin:100px auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.intro {
+    
+}
+
+btn {
+    background-color: hotpink;
+    background-image: -webkit-linear-gradient(top, #11cdd4, );
+}
