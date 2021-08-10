@@ -3,6 +3,7 @@ body {
     margin: 0px; /* Delete the default borders of the body */
     font-family: 'Merriweather', serif; /* Getting of the CSS rules of the google fonts*/
     color: #40514E; /* Font color of the body */
+    text-align: center;
 }
 
 h1 {
@@ -27,14 +28,14 @@ h3 {
 
 #cloud-image-1 { /* Image cloud 1 into .top-container */
     position: absolute; /* aboslute position of his pattern .top-container */
-    right: 300px; /* 300px right margin respect of his pattern */
+    right: 200px; /* 300px right margin respect of his pattern */
     top: 100px; /* 100px top margin respect of his pattern  */
 }
 
 #cloud-image-2 { 
     position: absolute; /* Position abosolute to move it respect his pattern (top-container)*/
-    left: 300px;
-    top: 200px;
+    left: 150px;
+    top: 350px;
 }
 
 #profile-photo {
@@ -45,14 +46,12 @@ h3 {
 }
 
 .top-container {
-    text-align: center; /* Center all HTML elements NOTE: if an block element has
-    width, the text-align property does not will center them, you need to
-    add a margin: 0 auto; to all block elements that you whant to center with a width */
+    position: relative;
+    padding-top: 100px;
     background-color: #E4F6F6; 
 }
 
 .middle-container {
-    text-align: center;
     padding-top: 100px;
 }
 
@@ -62,11 +61,26 @@ p {
 }
 
 .bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    margin-top: 100px;
+}
 
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
 }
 
 a {
-    color: #11999E; /* Color for the anchors */
+    color: #EAF6F6; /* Color for the anchors */
+    text-decoration: none; /* To eliminate the default style of anchors*/
+    font-family:'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: #11999E;
 }
 
 .skill-row {
@@ -109,7 +123,29 @@ hr {
     
 }
 
-btn {
-    background-color: hotpink;
-    background-image: -webkit-linear-gradient(top, #11cdd4, );
-}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat Alternates';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
