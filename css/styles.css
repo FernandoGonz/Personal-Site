@@ -35,7 +35,7 @@ h3 {
 #cloud-image-2 { 
     position: absolute; /* Position abosolute to move it respect his pattern (top-container)*/
     left: 150px;
-    top: 350px;
+    top: 400px;
 }
 
 #profile-photo {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .skill-row, .academic-row, .publications-row{
-    width: 50%;
+    width: 95%;
     margin: 100px auto 100px auto; /* to center the div content */
     text-align: left;
 }
@@ -93,6 +93,7 @@ a:hover {
     width: 20%;
     float: left;
     margin-right: 15px;
+    margin-top: 5px;
 }
 
 .academic-image {
@@ -178,7 +179,7 @@ hr {
 .nav-link {
     color: #11999E;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 .nav-link:hover {
