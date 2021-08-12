@@ -83,10 +83,22 @@ a:hover {
     color: #11999E;
 }
 
-.skill-row {
+.skill-row, .academic-row, .publications-row{
     width: 50%;
     margin: 100px auto 100px auto; /* to center the div content */
     text-align: left;
+}
+
+.publications-image {
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+}
+
+.academic-image {
+    background-color: white;
+    border-radius: 50%;
+    width: 25%;
 }
 
 .skill-image-left {
@@ -138,9 +150,9 @@ hr {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -148,4 +160,27 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-  }
+}
+
+.nav {
+    background-color: rgba(165, 105, 189, 0.2);
+    position: fixed;
+    border: 0px;
+    width: 100%;
+    text-align: end;
+}
+
+.nav-item {
+    display: inline;
+    margin: 5px;
+}
+
+.nav-link {
+    color: #11999E;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #986D8E
+}
